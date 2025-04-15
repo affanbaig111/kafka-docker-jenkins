@@ -12,4 +12,5 @@ public class KafkaConfig {
     public KafkaTemplate<String, User> kafkaTemplate(ProducerFactory<String, User> producerFactory) {
         return new KafkaTemplate<>(producerFactory);
     }
+//    /now
 }
